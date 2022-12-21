@@ -15,14 +15,7 @@ body{
     font-size: 1.2em;
 }
 
-#divPadre{
-    background-color: blue;
-    
+.miElemento{
 
-}
-
-#divHijo{
-    background-color:orange;
-    display: block;
-
+    color: black;
 }

@@ -12,18 +12,18 @@ imgIntro.setAttribute('src',/images/img-intro.png);
 
 document.setAttribute('title', 'Planeación 2023');
 
-let divPadre = document.getElementById("divPadre");
-  let divHijo = document.getElementById("divHijo");
 
 
-  button.onclick="toggleVisibility('miElemento')"
 
-
-  function toggleVisibility(id) {
-    var element = document.getElementById(id);
-    if (element.style.display === "none") {
-      element.style.display = "block";
+function toggleVisibility(className) {
+  let elements = document.getElementsByClassName(className.substring(1));
+  for (let i = 0; i < elements.length; i++) {
+    if (elements[i].style.display === "none") {
+      elements[i].style.display = "block";
     } else {
-      element.style.display = "none";
+      elements[i].style.display = "none";
     }
   }
+}
+
+toggleVisibility("miElemento");
