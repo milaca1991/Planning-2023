@@ -8,8 +8,21 @@ body{
     bottom:25px;
     font-size: 0.8em;
     right: 25px;
+    color: aliceblue;
 }
 .footer span a:hover{
     color:red!important;
     font-size: 1.2em;
+}
+
+#divPadre{
+    background-color: blue;
+    
+
+}
+
+#divHijo{
+    background-color:orange;
+    display: block;
+
 }
