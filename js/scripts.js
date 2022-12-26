@@ -23,6 +23,9 @@ objEts1_2.textContent= "1.2. Incrementar las ventas en linea escolar";
 let objEts1_3=document.getElementById('boton1_3');
 objEts1_3.textContent= "1.3. Incrementar las ventas en linea IES";
 
+let objEts1_4=document.getElementById('boton1_4');
+objEts1_4.textContent= "1.4. Mejorar la rentabilidad en las ventas";
+
 
 
 //functions hide and show for class
@@ -38,30 +41,15 @@ function toggleVisibility(className) {
   }
 }
 
-toggleVisibility("miElemento");
 
-function toggleVisibility(className) {
-  let elements = document.getElementsByClassName(className.substring(1));
-  for (let i = 0; i < elements.length; i++) {
-    if (elements[i].style.display === "none") {
-      elements[i].style.display = "block";
-    } else {
-      elements[i].style.display = "none";
-    }
+function mostrarOcultar(selector) {
+  let element = document.querySelector(selector);
+  if (element.style.display === "none") {
+    element.style.display = "block";
+  } else {
+    element.style.display = "none";
   }
 }
-
-toggleVisibility("miElemento1");
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -95,10 +83,10 @@ console.log(h2Elements);
 let forthH2Element = h2Elements.item(5);
 forthH2Element.textContent="Rebranding";
 
-let fifthH2Element = h2Elements.item(5);
+let fifthH2Element = h2Elements.item(6);
 fifthH2Element.textContent="CRM";
 
-let sixthH2Element = h2Elements.item(6);
+let sixthH2Element = h2Elements.item(7);
 sixthH2Element.textContent="Pendiente";
 
 
