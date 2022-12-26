@@ -15,7 +15,13 @@ objEts1.textContent= "1. Generar más y mejores ventas";
 
 
 let objEts1_1=document.getElementById('boton1_1');
-objEts1_1.textContent= "1.1. Incrementar las ventas en canal IES";
+objEts1_1.textContent= "1.1. Incrementar las ventas en linea de instrumentación";
+
+let objEts1_2=document.getElementById('boton1_2');
+objEts1_2.textContent= "1.2. Incrementar las ventas en linea escolar";
+
+let objEts1_3=document.getElementById('boton1_3');
+objEts1_3.textContent= "1.3. Incrementar las ventas en linea IES";
 
 
 
@@ -65,20 +71,37 @@ toggleVisibility("miElemento1");
 //pagina proyectos
 //elementos H2
 let h2Elements = document.querySelectorAll("h2");
+console.log(h2Elements);
+
+let titleS2= h2Elements.item(0);
+titleS2.textContent = "Detalle estrategia";
 
 
-let zeroH2Element = h2Elements.item(0);
+let zeroH2Element = h2Elements.item(1);
 zeroH2Element.textContent="Proyectos estratégicos 2023";
 
-let firstH2Element = h2Elements.item(1);
+let firstH2Element = h2Elements.item(2);
 firstH2Element.textContent="Momentos mágicos";
 
 
-let secondH2Element = h2Elements.item(2);
+let secondH2Element = h2Elements.item(3);
 secondH2Element.textContent="Transformación cultural";
 
-let thirdH2Element = h2Elements.item(3);
+let thirdH2Element = h2Elements.item(4);
 thirdH2Element.textContent="Seguridad de la información";
+
+console.log(h2Elements);
+
+let forthH2Element = h2Elements.item(5);
+forthH2Element.textContent="Rebranding";
+
+let fifthH2Element = h2Elements.item(5);
+fifthH2Element.textContent="CRM";
+
+let sixthH2Element = h2Elements.item(6);
+sixthH2Element.textContent="Pendiente";
+
+
 
 //elementos IMG
 let imgElements = document.querySelectorAll("img");
@@ -96,6 +119,12 @@ imgCultura.src="/images/imgCultura.png";
 let imgSeguridad=imgElements.item(3);
 imgSeguridad.src="/images/imgSeguridad.png";
 
+let imgRebranding=imgElements.item(4);
+imgRebranding.src="/images/rebranding.png";
+
+let imgCrm=imgElements.item(5);
+imgCrm.src="/images/crm.jpg";
+
 
 
 //elementos P
@@ -107,3 +136,4 @@ let firstPelement = pElements.item(1);
 firstPelement.textContent="Proyectos alineados a objetivos que impactan de forma transversal a todas las áreas"
 
 
+//estilos
