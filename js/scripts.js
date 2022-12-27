@@ -124,4 +124,7 @@ let firstPelement = pElements.item(1);
 firstPelement.textContent="Proyectos alineados a objetivos que impactan de forma transversal a todas las áreas"
 
 
-//estilos
+//pagina mapa
+
+
+
