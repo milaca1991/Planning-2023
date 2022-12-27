@@ -240,3 +240,12 @@ justify-content: center;
     display: none;
     margin-right: 10%; 
   }
+
+/*slide5*/
+
+.hide{
+
+  display: none;
+  visibility: hidden;
+
+}
