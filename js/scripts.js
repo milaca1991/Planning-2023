@@ -1,32 +1,26 @@
+let title = document.querySelector("h1");
+title.innerHTML = "Planeación 2023";
 
-let title= document.querySelector('h1');
-title.innerHTML= "Planeación 2023";
 
-let introTitle= document.querySelector('p.text-intro');
-introTitle.innerHTML= "Bienvenidos al nuevo rumbo que tomaremos como organización ";
-
-let footer = document.querySelector('div.footer');
+let footer = document.querySelector("div.footer");
 footer.innerHTML = "Made with ♥ by Electroequipos";
+let imgIntro = document.querySelector("img.img-intro");
 
-let imgIntro= document.querySelector('img.img-intro');
+let objEts1 = document.getElementById("boton1");
+objEts1.textContent = "1. Generar más y mejores ventas";
 
-let objEts1=document.getElementById('boton1');
-objEts1.textContent= "1. Generar más y mejores ventas";
+let objEts1_1 = document.getElementById("boton1_1");
+objEts1_1.textContent =
+  "1.1. Incrementar las ventas en linea de instrumentación";
 
+let objEts1_2 = document.getElementById("boton1_2");
+objEts1_2.textContent = "1.2. Incrementar las ventas en linea escolar";
 
-let objEts1_1=document.getElementById('boton1_1');
-objEts1_1.textContent= "1.1. Incrementar las ventas en linea de instrumentación";
+let objEts1_3 = document.getElementById("boton1_3");
+objEts1_3.textContent = "1.3. Incrementar las ventas en linea IES";
 
-let objEts1_2=document.getElementById('boton1_2');
-objEts1_2.textContent= "1.2. Incrementar las ventas en linea escolar";
-
-let objEts1_3=document.getElementById('boton1_3');
-objEts1_3.textContent= "1.3. Incrementar las ventas en linea IES";
-
-let objEts1_4=document.getElementById('boton1_4');
-objEts1_4.textContent= "1.4. Mejorar la rentabilidad en las ventas";
-
-
+let objEts1_4 = document.getElementById("boton1_4");
+objEts1_4.textContent = "1.4. Mejorar la rentabilidad en las ventas";
 
 //functions hide and show for class
 
@@ -41,7 +35,6 @@ function toggleVisibility(className) {
   }
 }
 
-
 function mostrarOcultar(selector) {
   let element = document.querySelector(selector);
   if (element.style.display === "none") {
@@ -51,80 +44,92 @@ function mostrarOcultar(selector) {
   }
 }
 
-
-
-
-
-
 //pagina proyectos
 //elementos H2
 let h2Elements = document.querySelectorAll("h2");
 console.log(h2Elements);
 
-let titleS2= h2Elements.item(0);
+let titleS2 = h2Elements.item(0);
 titleS2.textContent = "Detalle estrategia";
 
-
 let zeroH2Element = h2Elements.item(1);
-zeroH2Element.textContent="Proyectos estratégicos 2023";
+zeroH2Element.textContent = "Proyectos estratégicos 2023";
 
 let firstH2Element = h2Elements.item(2);
-firstH2Element.textContent="Momentos mágicos";
-
+firstH2Element.textContent = "Momentos mágicos";
 
 let secondH2Element = h2Elements.item(3);
-secondH2Element.textContent="Transformación cultural";
+secondH2Element.textContent = "Transformación cultural";
 
 let thirdH2Element = h2Elements.item(4);
-thirdH2Element.textContent="Seguridad de la información";
+thirdH2Element.textContent = "Seguridad de la información";
 
 console.log(h2Elements);
 
 let forthH2Element = h2Elements.item(5);
-forthH2Element.textContent="Rebranding";
+forthH2Element.textContent = "Rebranding";
 
 let fifthH2Element = h2Elements.item(6);
-fifthH2Element.textContent="CRM";
+fifthH2Element.textContent = "CRM";
 
 let sixthH2Element = h2Elements.item(7);
-sixthH2Element.textContent="Pendiente";
-
-
+sixthH2Element.textContent = "Pendiente";
 
 //elementos IMG
 let imgElements = document.querySelectorAll("img");
 console.log(imgElements);
 
-let strategicMap=imgElements.item(0);
-strategicMap.src="/images/mapa.png";
-
-let imgMomas=imgElements.item(1);
-imgMomas.src="/images/imgMomas1.png";
-
-let imgCultura=imgElements.item(2);
-imgCultura.src="/images/imgCultura.png";
-
-let imgSeguridad=imgElements.item(3);
-imgSeguridad.src="/images/imgSeguridad.png";
-
-let imgRebranding=imgElements.item(4);
-imgRebranding.src="/images/rebranding.png";
-
-let imgCrm=imgElements.item(5);
-imgCrm.src="/images/crm.jpg";
 
 
+let strategicMap = imgElements.item(0);
+strategicMap.src = "/images/mapa.png";
+
+let imgMomas = imgElements.item(1);
+imgMomas.src = "/images/imgMomas1.png";
+
+let imgCultura = imgElements.item(2);
+imgCultura.src = "/images/imgCultura.png";
+
+let imgSeguridad = imgElements.item(3);
+imgSeguridad.src = "/images/imgSeguridad.png";
+
+let imgRebranding = imgElements.item(4);
+imgRebranding.src = "/images/rebranding.png";
+
+let imgCrm = imgElements.item(5);
+imgCrm.src = "/images/crm.jpg";
 
 //elementos P
 
 let pElements = document.querySelectorAll("p");
 console.log(pElements);
 
-let firstPelement = pElements.item(1);
-firstPelement.textContent="Proyectos alineados a objetivos que impactan de forma transversal a todas las áreas"
+let zeroPelement = pElements.item(0);
+zeroPelement.textContent =
+  "Bienvenidos al nuevo rumbo que tomaremos como organización ";
+
+  let firstPelement = pElements.item(1);
+  firstPelement.textContent =
+    "El compromiso de Electroequipos es proveer al sector educativo y empresarial soluciones integrales de enseñanza y para la industria en general, la más avanzada tecnología, poniendo al alcance de sus socios estratégicos las herramientas y procesos que formen y actualicen profesionales altamente competitivos en el mercado nacional e internacional";
+  
+    let secondPelement = pElements.item(2);
+  secondPelement.textContent =
+    "Para el 2028 Electroequipos se consolidará como el primer proveedor de soluciones tecnológicas en el sector educativo y contará con reconocimiento en el sector industrial. A traves de la innovación y la constante busqueda de tendencias globales, Electroequipos seguirá diversificando su portafolio aportando a nuestra sociedad soluciones de enseñanza con estandares de calidad y poniendo al alcance de las instituciones educativas tecnologias de avanzada, asi mismo, seguira creciendo de manera sostenible logrando mayor cobertura, asi como su compromiso con la generacion de empleo calificado en el país";
 
 
-//pagina mapa
+
+let thirdPelement = pElements.item(3);
+thirdPelement.textContent =
+  "Proyectos alineados a objetivos que impactan de forma transversal a todas las áreas";
 
 
+//elementos h3
 
+let h3Elements = document.querySelectorAll("h3");
+console.log(h3Elements);
+
+let zeroH3Element = h3Elements.item(0);
+zeroH3Element.textContent = "Nuestra misión";
+
+let firstH3Element = h3Elements.item(1);
+firstH3Element.textContent = "Nuestra visión";

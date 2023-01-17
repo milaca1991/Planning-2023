@@ -249,3 +249,33 @@ justify-content: center;
   visibility: hidden;
 
 }
+
+
+.text-mision-vision{
+
+  font-size:medium;
+  text-align:left;
+  color: black;
+  padding-left: 50%;
+}
+
+.banner{
+
+  background-image: url(/images/pexels-sharefaith-1248418.jpg);
+  background-size: 100% 150%;
+  padding: 3%;
+}
+
+.mision{
+  font-family: 'Roboto', 'San Francisco', helvetica, arial, sans-serif;
+  color: black;
+  font-weight: 700;
+  padding-left: 50%;
+}
+
+.banner2{
+
+  background-image: url(/images/pexels-renan-lima-3364025.jpg);
+  background-size: 100% 150%;
+  padding: 3%;
+}
