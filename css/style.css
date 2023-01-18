@@ -8,7 +8,7 @@ body{
     bottom:25px;
     font-size: 0.8em;
     right: 25px;
-    color: aliceblue;
+    color: gray;
 }
 .footer span a:hover{
     color:red!important;
@@ -105,6 +105,12 @@ transition-duration: 150ms;}
   padding-bottom: 1%;
     }
   
+     
+#section-3.slide.current{
+  display: block;
+  padding-top: 1%;
+  padding-bottom: 1%;
+    }
 
     .grid-container{
       display: grid;
@@ -253,16 +259,16 @@ justify-content: center;
 
 .text-mision-vision{
 
-  font-size:medium;
-  text-align:left;
+  font-size:1.5rem;
+  text-align:justify;
   color: black;
   padding-left: 50%;
 }
 
 .banner{
 
-  background-image: url(/images/pexels-sharefaith-1248418.jpg);
-  background-size: 100% 150%;
+  background-image: url(/images/Presentación1.jpg);
+  background-size: 100% 100%;
   padding: 3%;
 }
 
@@ -275,7 +281,7 @@ justify-content: center;
 
 .banner2{
 
-  background-image: url(/images/pexels-renan-lima-3364025.jpg);
-  background-size: 100% 150%;
+  background-image: url(/images/4780372.jpg);
+  background-size: 90% 250%;
   padding: 3%;
 }
