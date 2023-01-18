@@ -99,7 +99,7 @@ transition-duration: 150ms;}
 
 
  
-#section-2.slide.current{
+#section-2.slide.current,#section-4.slide.current{
   display: block;
   padding-top: 1%;
   padding-bottom: 1%;
@@ -261,7 +261,7 @@ justify-content: center;
 
   font-size:1.5rem;
   text-align:justify;
-  color: black;
+  color: #333333;
   padding-left: 50%;
 }
 
@@ -273,8 +273,8 @@ justify-content: center;
 }
 
 .mision{
-  font-family: 'Roboto', 'San Francisco', helvetica, arial, sans-serif;
-  color: black;
+  font-family: 'Poppins',sans-serif!important;
+  color: #333333;
   font-weight: 700;
   padding-left: 50%;
 }
@@ -284,4 +284,16 @@ justify-content: center;
   background-image: url(/images/4780372.jpg);
   background-size: 90% 250%;
   padding: 3%;
+}
+
+.valores{
+  font-family: 'Poppins',sans-serif!important;
+  color: #333333;
+  font-weight: 700;
+  text-align: center;
+}
+.textoValores{
+
+  text-align: center;
+  font-size: smaller !important;;
 }
