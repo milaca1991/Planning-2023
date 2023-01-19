@@ -50,40 +50,69 @@ let h2Elements = document.querySelectorAll("h2");
 console.log(h2Elements);
 
 
-let zeroH2Element = h2Elements.item(0);
+let zeroH2Element = h2Elements.item(8);
 zeroH2Element.textContent = "Confianza";
 
-let firstH2Element = h2Elements.item(1);
+let firstH2Element = h2Elements.item(9);
 firstH2Element.textContent = "Orgullo";
 
-let secondH2Element = h2Elements.item(2);
+let secondH2Element = h2Elements.item(10);
 secondH2Element.textContent = "Relación";
 
-let thirdH2Element = h2Elements.item(3);
-thirdH2Element.textContent = "Detalle estrategia";
+let thirdH2Element = h2Elements.item(0);
+thirdH2Element.textContent = "Cultura de servicio";
 
-let forthH2Element = h2Elements.item(4);
-forthH2Element.textContent = "Proyectos estratégicos 2023";
+let forthH2Element = h2Elements.item(1);
+forthH2Element.textContent = "Somos innovadores";
 
-let fifthH2Element = h2Elements.item(5);
-fifthH2Element.textContent = "Momentos mágicos";
+let fiveH2Element = h2Elements.item(2);
+fiveH2Element.textContent = "Trabajamos en equipo";
 
-let sixthH2Element = h2Elements.item(6);
-sixthH2Element.textContent = "Transformación cultural";
 
-let sevenH2Element = h2Elements.item(7);
-sevenH2Element.textContent = "Seguridad de la información";
+let sixH2Element = h2Elements.item(3);
+sixH2Element.textContent = "Actuamos con pasión";
 
-console.log(h2Elements);
 
-let eigthH2Element = h2Elements.item(8);
-eigthH2Element.textContent = "Rebranding";
+let sevenH2Element = h2Elements.item(4);
+sevenH2Element.textContent = "Orientados al logro de objetivos";
 
-let nineH2Element = h2Elements.item(9);
-nineH2Element.textContent = "CRM";
 
-let tenH2Element = h2Elements.item(10);
-tenH2Element.textContent = "Pendiente";
+let eigthH2Element = h2Elements.item(5);
+eigthH2Element.textContent = "Somos colaboradores integrales";
+
+
+let nineH2Element = h2Elements.item(6);
+nineH2Element.textContent = "Dispuestos al cambio";
+
+
+let tenH2Element = h2Elements.item(7);
+tenH2Element.textContent = "Confiamos en ti";
+
+
+
+
+// let forthH2Element = h2Elements.item(4);
+// forthH2Element.textContent = "Proyectos estratégicos 2023";
+
+// let fifthH2Element = h2Elements.item(5);
+// fifthH2Element.textContent = "Momentos mágicos";
+
+// let sixthH2Element = h2Elements.item(6);
+// sixthH2Element.textContent = "Transformación cultural";
+
+// let sevenH2Element = h2Elements.item(7);
+// sevenH2Element.textContent = "Seguridad de la información";
+
+// console.log(h2Elements);
+
+// let eigthH2Element = h2Elements.item(8);
+// eigthH2Element.textContent = "Rebranding";
+
+// let nineH2Element = h2Elements.item(9);
+// nineH2Element.textContent = "CRM";
+
+// let tenH2Element = h2Elements.item(10);
+// tenH2Element.textContent = "Pendiente";
 
 
 
@@ -137,24 +166,30 @@ let secondPelement = pElements.item(2);
 secondPelement.textContent =
 "Para el 2028 Electroequipos se consolidará como el primer proveedor de soluciones tecnológicas en el sector educativo y contará con reconocimiento en el sector industrial. A traves de la innovación y la constante busqueda de tendencias globales, Electroequipos seguirá diversificando su portafolio aportando a nuestra sociedad soluciones de enseñanza con estandares de calidad y poniendo al alcance de las instituciones educativas tecnologias de avanzada, asi mismo, seguira creciendo de manera sostenible logrando mayor cobertura, asi como su compromiso con la generacion de empleo calificado en el país";
 
-let thirdPelement = pElements.item(3);
+let defP1element = pElements.item(3);
+defP1element.textContent =
+"Reflejada en nuestras actividades del día a día con nuestros clientes";
+
+let prin1Pelement = pElements.item(4);
+prin1Pelement.textContent =
+"Entendemos que cada uno de nosotros aporta al logro de los objetivos y siempre estamos prestos a brindar el apoyo que se requiere para su cumplimiento";
+
+let thirdPelement = pElements.item(11);
 thirdPelement.textContent =
-"hacia sus superiores y equipo de trabajo";
+"hacia nuestros superiores y equipo de trabajo";
 
-let forthPelement = pElements.item(4);
+let forthPelement = pElements.item(12);
 forthPelement.textContent =
-"respecto a la empresa; de hacer lo que hacen en donde lo hacen";
+"respecto a la empresa; de hacer lo que hacemos en donde lo hacemos";
 
-let fivePelement = pElements.item(5);
+let fivePelement = pElements.item(13);
 fivePelement.textContent =
-"la conexión e interacción con su equipo de trabajo";
+"la conexión e interacción con nuestro equipo de trabajo";
 
 
-let sixPelement = pElements.item(6);
+let sixPelement = pElements.item(14);
 sixPelement.textContent =
 "Proyectos alineados a objetivos que impactan de forma transversal a todas las áreas";
-
-
 
 
 
@@ -170,4 +205,15 @@ let firstH3Element = h3Elements.item(1);
 firstH3Element.textContent = "Nuestra visión";
 
 let secondH3Element = h3Elements.item(2);
-secondH3Element.textContent = "Los valores que estamos construyendo";
+secondH3Element.textContent = "Los principios que estamos construyendo";
+
+let threeH3Element = h3Elements.item(3);
+threeH3Element.textContent = "Los valores que nos darán la fuerza";
+
+// elemento span
+
+let spanElements=document.querySelectorAll("span");
+console.log(spanElements);
+
+let defPrin1=spanElements.item(0);
+defPrin1.textContent = "cliente externo: brindando un excelente servicio reflejado en nuestras actividades dia a dia"
