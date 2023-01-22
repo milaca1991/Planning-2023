@@ -1942,7 +1942,7 @@ About, Philosophy...
     height: 1px;
     position: relative; }
   .flexblock.reasons li:before {
-    content: counter(list) ".";
+   content: "*";
     font-size: 6.4rem;
     line-height: 1; }
   @media (min-width: 768px) {

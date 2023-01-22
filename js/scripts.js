@@ -168,26 +168,85 @@ secondPelement.textContent =
 
 let defP1element = pElements.item(3);
 defP1element.textContent =
-"Reflejada en nuestras actividades del día a día con nuestros clientes";
+"Reflejada en nuestras actividades del día a día";
 
-let prin1Pelement = pElements.item(4);
-prin1Pelement.textContent =
-"Entendemos que cada uno de nosotros aporta al logro de los objetivos y siempre estamos prestos a brindar el apoyo que se requiere para su cumplimiento";
+let tooltip1 = pElements.item(4);
+tooltip1.textContent =
+"Cada uno de nosotros aporta al logro de objetivos y siempre estamos prestos a brindar el apoyo que se requiere";
 
-let thirdPelement = pElements.item(11);
+let defP2Pelement = pElements.item(5);
+defP2Pelement.textContent =
+"Fomentamos la creatividad y la disrupción para mantenernos a la vanguardia";
+
+let tooltip2 = pElements.item(6);
+tooltip2.textContent =
+"Proponemos, concretamos y aplicamos las ideas. Asi como aceptamos diferentes opiniones";  
+
+let defP3Pelement = pElements.item(7);
+defP3Pelement.textContent =
+"Tenemos metas en común y entendemos que el éxito personal solo se logrará mediante el éxito de todo el equipo";
+
+let tooltip3 = pElements.item(8);
+tooltip3.textContent =
+"Construimos y solucionamos en equipo . Frente a problemas no buscamos el ¿quien?, sino el ¿cómo? y ¿por qué? ";
+
+let defP4Pelement = pElements.item(9);
+defP4Pelement.textContent =
+"Nos retamos y disfrutamos lo que hacemos, construimos empresa y trabajadores felices";
+
+let tooltip4 = pElements.item(10);
+tooltip4.textContent =
+"Inspiramos a nuestros clientes, reflejando la pasión por lo que hacemos";
+
+let defP5Pelement = pElements.item(11);
+defP5Pelement.textContent =
+"Trazamos objetivos, planeamos y nos retamos";
+
+let tooltip5 = pElements.item(12);
+tooltip5.textContent =
+" Recopilamos información veraz y confiable. Entendemos que la medición es el medio para alcanzar los objetivos";
+
+let defP6Pelement = pElements.item(13);
+defP6Pelement.textContent =
+"Calidad en nuestras soluciones y prácticas, con autocuidado y minizando impacto ambiental";
+
+let tooltip6 = pElements.item(14);
+tooltip6.textContent =
+" Desempeñamos nuestra labor orientados a la satisfacción de nuestros clientes";
+
+let defP7Pelement = pElements.item(15);
+defP7Pelement.textContent =
+"Construimos en equipo y eliminamos las barreras que se presenten, para conseguir éxito en los procesos de transformación";
+
+let tooltip7 = pElements.item(16);
+tooltip7.textContent =
+"Nos gusta iniciar el cambio o formar parte del cambio";
+
+
+let defP8Pelement = pElements.item(17);
+defP8Pelement.textContent =
+"Tus líderes y compañeros, viven las relaciones laborales fomentando la confianza";
+let tooltip8 = pElements.item(18);
+tooltip8.textContent =
+"Estamos seguros de tu potencial";
+
+
+
+
+let thirdPelement = pElements.item(19);
 thirdPelement.textContent =
 "hacia nuestros superiores y equipo de trabajo";
 
-let forthPelement = pElements.item(12);
+let forthPelement = pElements.item(20);
 forthPelement.textContent =
 "respecto a la empresa; de hacer lo que hacemos en donde lo hacemos";
 
-let fivePelement = pElements.item(13);
+let fivePelement = pElements.item(21);
 fivePelement.textContent =
 "la conexión e interacción con nuestro equipo de trabajo";
 
 
-let sixPelement = pElements.item(14);
+let sixPelement = pElements.item(22);
 sixPelement.textContent =
 "Proyectos alineados a objetivos que impactan de forma transversal a todas las áreas";
 
@@ -215,5 +274,3 @@ threeH3Element.textContent = "Los valores que nos darán la fuerza";
 let spanElements=document.querySelectorAll("span");
 console.log(spanElements);
 
-let defPrin1=spanElements.item(0);
-defPrin1.textContent = "cliente externo: brindando un excelente servicio reflejado en nuestras actividades dia a dia"

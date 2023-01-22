@@ -99,7 +99,7 @@ transition-duration: 150ms;}
 
 
  
-#section-2.slide.current,#section-4.slide.current,#section-3.slide.current,#section-5.slide.current{
+#section-2.slide.current,#section-4.slide.current,#section-3.slide.current,#section-5.slide.current, #section-6.slide.current{
   display: block;
   padding-top: 1%;
   padding-bottom: 1%;
@@ -147,14 +147,6 @@ margin-left: 0%;
     
 /*slide3*/
 
-  #mapaEstrategico{
-
-    width: 80%;
-    height: 100%;
-    text-align: center;
-    margin-top: 2%;
-  
-  }
 
 
   #section-3.slide.current{
@@ -263,8 +255,9 @@ justify-content: center;
 
 .banner{
 
-  background-image: url(/images/Presentación1.jpg);
-  background-size: 100% 100%;
+  background-image: url(/images/Presentación2.jpg);
+  background-size: 90% 125% ;
+  background-repeat: no-repeat;
   padding: 3%;
 }
 
@@ -309,7 +302,7 @@ justify-content: space-around;
 }
 
 
-/*tooltipe*/
+/*tooltip*/
 
 .tooltip {
   position: relative;
@@ -348,4 +341,18 @@ justify-content: space-around;
 .tooltip:hover .tooltiptext {
   visibility: visible;
   opacity: 1;
+}
+
+li::before{
+
+  content: counter() ".";
+}
+
+
+.mapa{
+
+height: 80%;
+width: 80%;
+position: relative;
+left: 12%;
 }
