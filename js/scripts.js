@@ -17,7 +17,7 @@ let objEts1_2 = document.getElementById("boton1_2");
 objEts1_2.textContent = "1.2. Incrementar las ventas en linea escolar";
 
 let objEts1_3 = document.getElementById("boton1_3");
-objEts1_3.textContent = "1.3. Incrementar las ventas en linea IES";
+objEts1_3.textContent = "1.3. Incrementar las ventas en linea en educación superior";
 
 let objEts1_4 = document.getElementById("boton1_4");
 objEts1_4.textContent = "1.4. Mejorar la rentabilidad en las ventas";
@@ -88,6 +88,8 @@ nineH2Element.textContent = "Dispuestos al cambio";
 let tenH2Element = h2Elements.item(7);
 tenH2Element.textContent = "Confiamos en ti";
 
+let titleObjetives = h2Elements.item(11);
+titleObjetives.textContent = "Desglose de objetivos";
 
 
 
@@ -274,3 +276,30 @@ threeH3Element.textContent = "Los valores que nos darán la fuerza";
 let spanElements=document.querySelectorAll("span");
 console.log(spanElements);
 
+let op1obj1=spanElements.item(0);
+op1obj1.textContent="1.1.1. Incorporar 5 distribuidores con compras superiores a 40 millones por Q"
+
+let op2obj1=spanElements.item(1);
+op2obj1.textContent="1.1.2. Incrementar la facturación en distribuidores actuales";
+
+let op3obj1=spanElements.item(2);
+op3obj1.textContent="1.2.1. Generar un pipeline por un valor de 2 mil 500 millones de pesos en linea escolar y lograr una efectividad del 40%";
+
+let op4obj1=spanElements.item(3);
+op4obj1.textContent="1.2.2. Incrementar las cantidad en clientes nuevos en linea escolar";
+
+let op5obj1=spanElements.item(4);
+op5obj1.textContent="1.3.1. Alcanzar el 0.5% en participación sobre la meta de ventas en linea de Mantenimiento";
+
+let op6obj1=spanElements.item(5);
+op6obj1.textContent="1.3.2. Lograr la cobertura en gestión de cuentas al 100%";
+
+let op7obj1=spanElements.item(6);
+op7obj1.textContent="1.3.3. Incrementar la cantidad de clientes por recompra en linea de IES";
+
+let op8obj1=spanElements.item(7);
+op8obj1.textContent="1.3.4. Incrementar la cantidad de clientes nuevos en linea de IES";
+
+
+let op9obj1=spanElements.item(8);
+op9obj1.textContent="1.4.1. Lograr oportunidades en marcas propias por 23 mil millones y lograr una efectividad del 40%";
