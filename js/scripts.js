@@ -9,6 +9,13 @@ let imgIntro = document.querySelector("img.img-intro");
 let objEts1 = document.getElementById("boton1");
 objEts1.textContent = "1. Generar más y mejores ventas";
 
+let objEts2 = document.getElementById("boton2");
+objEts2.textContent = "2. Maximizar los recursos para el crecimiento del valor de la compañía";
+
+let objEts3 = document.getElementById("boton3");
+objEts3.textContent = "3. Mantener el margen operativo mínimo al 30% ";
+
+
 let objEts1_1 = document.getElementById("boton1_1");
 objEts1_1.textContent =
 "1.1. Incrementar las ventas en linea de instrumentación";
@@ -21,6 +28,23 @@ objEts1_3.textContent = "1.3. Incrementar las ventas en linea en educación supe
 
 let objEts1_4 = document.getElementById("boton1_4");
 objEts1_4.textContent = "1.4. Mejorar la rentabilidad en las ventas";
+
+let objEts2_1 = document.getElementById("boton2_1");
+objEts2_1.textContent = "2.1. Mantener un Margen Bruto de mínimo 55% en el 70% del valor del presupuesto anual de ventas y facturación";
+
+
+let objEts2_2 = document.getElementById("boton2_2");
+objEts2_2.textContent = "2.2. Aumentar la rotación de inventario en líneas con stock a 3 veces por año";
+
+
+let objEts3_1 = document.getElementById("boton3_1");
+objEts3_1.textContent = "3.1. Optimizar el gasto administrativo";
+
+
+let objEts3_2 = document.getElementById("boton3_2");
+objEts3_2.textContent = "3.2.  Optimizar el gasto de distribución y venta";
+
+
 
 //functions hide and show for class
 
@@ -91,6 +115,8 @@ tenH2Element.textContent = "Confiamos en ti";
 let titleObjetives = h2Elements.item(11);
 titleObjetives.textContent = "Desglose de objetivos";
 
+let titleProjects = h2Elements.item(12);
+titleProjects.textContent = "Proyectos que apalancarán la estrategia";
 
 
 // let forthH2Element = h2Elements.item(4);
@@ -137,19 +163,8 @@ let strategicMap = imgElements.item(3);
 strategicMap.src = "/images/mapa.png";
 
 let imgMomas = imgElements.item(4);
-imgMomas.src = "/images/imgMomas1.png";
+imgMomas.src = "/images/OT CAMILA_Mesa de trabajo 1-02.png";
 
-let imgCultura = imgElements.item(5);
-imgCultura.src = "/images/imgCultura.png";
-
-let imgSeguridad = imgElements.item(6);
-imgSeguridad.src = "/images/imgSeguridad.png";
-
-let imgRebranding = imgElements.item(7);
-imgRebranding.src = "/images/rebranding.png";
-
-let imgCrm = imgElements.item(8);
-imgCrm.src = "/images/crm.jpg";
 
 //elementos P
 
@@ -303,3 +318,23 @@ op8obj1.textContent="1.3.4. Incrementar la cantidad de clientes nuevos en linea 
 
 let op9obj1=spanElements.item(8);
 op9obj1.textContent="1.4.1. Lograr oportunidades en marcas propias por 23 mil millones y lograr una efectividad del 40%";
+
+let op1obj2=spanElements.item(9);
+op1obj2.textContent="2.1.1. Ser eficientes en la estructuración de los proyectos";
+
+let op2obj2=spanElements.item(10);
+op2obj2.textContent="2.1.2. Incrementar al 70% la participación de marcas propias en las ventas";
+
+let op3obj2=spanElements.item(11);
+op3obj2.textContent="2.1.3. Incrementar la facturación de las marcas que generan una rentabilidad superior al 60 %";
+
+let op4obj2=spanElements.item(12);
+op4obj2.textContent="2.1.4. Mantener en 17% el gasto logístico";
+
+let op5obj2=spanElements.item(13);
+op5obj2.textContent="2.1.5. Ser eficientes en la negociación con proveedores que permita negociar mejores plazos y descuentos";
+
+let op6obj2=spanElements.item(14);
+op6obj2.textContent="2.2.1. Mejorar la estimacion de la demanda para mantener un stock óptimo ";
+
+
