@@ -113,11 +113,13 @@ let tenH2Element = h2Elements.item(7);
 tenH2Element.textContent = "Confiamos en ti";
 
 let titleObjetives = h2Elements.item(11);
-titleObjetives.textContent = "Desglose de objetivos";
+titleObjetives.textContent = "Desglose de los Objetivos estratégicos";
 
 let titleProjects = h2Elements.item(12);
-titleProjects.textContent = "Proyectos que apalancarán la estrategia";
+titleProjects.textContent = "Proyectos y planes que apalancarán la estrategia";
 
+let titleBSC = h2Elements.item(13);
+titleBSC.textContent = "Cuadro de mando";
 
 // let forthH2Element = h2Elements.item(4);
 // forthH2Element.textContent = "Proyectos estratégicos 2023";
@@ -165,7 +167,8 @@ strategicMap.src = "/images/mapa.png";
 let imgMomas = imgElements.item(4);
 imgMomas.src = "/images/OT CAMILA_Mesa de trabajo 1-02.png";
 
-
+let bsc = imgElements.item(5);
+ bsc.src = "/images/DETALLE DE INDICADORES 2023.png";
 //elementos P
 
 let pElements = document.querySelectorAll("p");
@@ -263,9 +266,6 @@ fivePelement.textContent =
 "la conexión e interacción con nuestro equipo de trabajo";
 
 
-let sixPelement = pElements.item(22);
-sixPelement.textContent =
-"Proyectos alineados a objetivos que impactan de forma transversal a todas las áreas";
 
 
 

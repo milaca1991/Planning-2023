@@ -105,7 +105,7 @@ span.miElemento, span.miElemento2{
   
   
   
-  #section-2.slide.current,#section-4.slide.current,#section-3.slide.current,#section-5.slide.current, #section-6.slide.current, #section-8.slide.current, #section-7.slide.current {
+  #section-2.slide.current,#section-4.slide.current,#section-3.slide.current,#section-5.slide.current, #section-6.slide.current, #section-8.slide.current, #section-7.slide.current, #section-9.slide.current, #section-10.slide.current {
     display: block;
     padding-top: 1%;
     padding-bottom: 1%;
@@ -150,7 +150,7 @@ span.miElemento, span.miElemento2{
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(6, 1fr);
     column-gap: 1rem;
-    
+    row-gap: 0;
     }
     
     .div1G2 { grid-area: 1 / 2 / 3 / 3; }
@@ -414,4 +414,30 @@ span.miElemento, span.miElemento2{
 margin-bottom: 0%;
 
 text-align: center;
+  }
+
+  .tituloMetas{
+
+    text-align: center;
+    align-items: center;
+
+
+  }
+
+  figure {
+
+    background-color: white;
+
+  }
+
+.aligncenter2{
+text-align: center;
+  color: black; 
+
+}
+
+.aligncenter3{
+  text-align: center;
+
+  
   }
