@@ -11,7 +11,7 @@ body{
   color: gray;
 }
 .footer span a:hover{
-  color:red!important;
+  color:rgb(31, 13, 112)!important;
   font-size: 1.2em;
 }
 
@@ -35,7 +35,7 @@ body{
  #boton1,#boton2,#boton3 {
   width: 70%;
   height: 40px;
-  color: #f0f0f0;
+  color: #1d1d1d;
   padding: 5px 10px;
   font-weight: bold;
   cursor: pointer;
@@ -44,7 +44,7 @@ body{
 
   border-radius: 5px;
   z-index: 0;
-  background: #28282d;
+  background: #ADAF30;
   overflow: hidden;
   border: 2px solid #495057;
   font-family: 'Poppins',sans-serif!important;  
@@ -79,7 +79,7 @@ body{
   border-radius: 3px;
   border: 0;
   color: #000021;
-  background: #F5F5E8;
+  background: #b8b8b3;
   line-height: 1.15;
   font-size: 13px;
   box-shadow: 0 0 0 0 #fff, 0 0 0 2px #495057;
@@ -109,7 +109,47 @@ span.miElemento, span.miElemento2{
     display: block;
     padding-top: 1%;
     padding-bottom: 1%;
+
+
   }
+
+
+
+/*banner mega 1*/
+
+.bannerMega1 {
+  width: 100%;
+  background-color: #E0E0B9;
+    background-size: cover;
+  font-size: 8rem;
+  color: rgb(3, 3, 3);
+  text-align: center;
+  padding: 3%;
+  border-radius: 1%;
+  
+}
+
+.big-text {
+  font-size: 30%;
+  font-weight:800;
+  animation-delay: 1s;
+}
+.banner a {
+  display: inline-block;
+  background: #fff;
+  color: #36465d;
+  text-transform: uppercase;
+  padding: 15px;
+  text-decoration: none;
+  font-size: 40px;
+
+}
+.banner a:hover {
+  background: #333;
+  color: #fff;
+  padding: 15px 20px;
+}
+
   /*GRID CONTAINER OBJETIVO 1*/
   
   
@@ -265,7 +305,7 @@ span.miElemento, span.miElemento2{
   .imgProyectos{
     
     height: 70%;
-    margin-top: 5%;
+
     margin-bottom: 5%; 
   }
   .liProyectos{
@@ -294,14 +334,16 @@ span.miElemento, span.miElemento2{
     text-align:justify;
     color: #333333;
     padding-left: 50%;
+    
   }
   
   .banner{
     
     background-image: url(/images/Presentación2.jpg);
-    background-size: 90% 125% ;
+     background-size:100% 130%;
     background-repeat: no-repeat;
     padding: 3%;
+
   }
   
   .mision{
@@ -402,13 +444,21 @@ span.miElemento, span.miElemento2{
 
   /*slide 8*/
 
-  .imgProyectos { 
-  
-    width: 90%;
-    height: 90%;
-    margin: 0%;
-    padding-left: 10%;
+  #section-8.slide.current{
+
+    background-image: url(/images/proyectos.png);
+    background-position-x:center ;
+    background-position-y:center  ;
+    background-size: 90% 100%;
+    background-repeat: no-repeat;
+    border-image-source: none ;
+    background-color:  #424445 ;
+    animation: fadeIn 0.6s;
+
   }
+
+
+
 
   #desProy{
 margin-bottom: 0%;
@@ -416,6 +466,9 @@ margin-bottom: 0%;
 text-align: center;
   }
 
+
+
+    /*slide 9*/
   .tituloMetas{
 
     text-align: center;

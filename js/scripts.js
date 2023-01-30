@@ -81,7 +81,7 @@ let firstH2Element = h2Elements.item(9);
 firstH2Element.textContent = "Orgullo";
 
 let secondH2Element = h2Elements.item(10);
-secondH2Element.textContent = "Relación";
+secondH2Element.textContent = "Trabajo en equipo";
 
 let thirdH2Element = h2Elements.item(0);
 thirdH2Element.textContent = "Cultura de servicio";
@@ -115,11 +115,11 @@ tenH2Element.textContent = "Confiamos en ti";
 let titleObjetives = h2Elements.item(11);
 titleObjetives.textContent = "Desglose de los Objetivos estratégicos";
 
-let titleProjects = h2Elements.item(12);
-titleProjects.textContent = "Proyectos y planes que apalancarán la estrategia";
+// let titleProjects = h2Elements.item(12);
+// titleProjects.textContent = "Proyectos y planes que apalancarán la estrategia";
 
-let titleBSC = h2Elements.item(13);
-titleBSC.textContent = "Cuadro de mando";
+// let titleBSC = h2Elements.item(12);
+// titleBSC.textContent = "Cuadro de mando";
 
 // let forthH2Element = h2Elements.item(4);
 // forthH2Element.textContent = "Proyectos estratégicos 2023";
@@ -153,23 +153,23 @@ let imgElements = document.querySelectorAll("img");
 console.log(imgElements);
 
 let valueOne = imgElements.item(0);
-valueOne.src = "/images/valor1.jpg";
+valueOne.src = "/images/Business deal-pana.png";
 
 let valueTwo = imgElements.item(1);
-valueTwo.src = "/images/valor 2.jpg";
+valueTwo.src = "/images/Appreciation-rafiki.png";
 
 let valueTree = imgElements.item(2);
-valueTree.src = "/images/valor3.jpg";
+valueTree.src = "/images/valor 3.png";
 
 let strategicMap = imgElements.item(3);
-strategicMap.src = "/images/mapa.png";
+strategicMap.src = "/images/mapa2.jpg";
 
-let imgMomas = imgElements.item(4);
-imgMomas.src = "/images/OT CAMILA_Mesa de trabajo 1-02.png";
 
-let bsc = imgElements.item(5);
+let bsc = imgElements.item(4);
  bsc.src = "/images/DETALLE DE INDICADORES 2023.png";
-//elementos P
+
+
+ //elementos P
 
 let pElements = document.querySelectorAll("p");
 console.log(pElements);
@@ -255,11 +255,11 @@ tooltip8.textContent =
 
 let thirdPelement = pElements.item(19);
 thirdPelement.textContent =
-"hacia nuestros superiores y equipo de trabajo";
+"hacia nuestros líderes y nuestro equipo de trabajo           ";
 
 let forthPelement = pElements.item(20);
 forthPelement.textContent =
-"respecto a la empresa; de hacer lo que hacemos en donde lo hacemos";
+"de hacer lo que hacemos en donde lo hacemos";
 
 let fivePelement = pElements.item(21);
 fivePelement.textContent =
