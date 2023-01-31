@@ -15,6 +15,12 @@ objEts2.textContent = "2. Maximizar los recursos para el crecimiento del valor d
 let objEts3 = document.getElementById("boton3");
 objEts3.textContent = "3. Mantener el margen operativo mínimo al 30% ";
 
+let objEts4 = document.getElementById("boton4");
+objEts4.textContent = "4. Generar demanda para aumentar oportunidades de negocio";
+
+let objEts5 = document.getElementById("boton5");
+objEts5.textContent = "5. Aumentar el nivel de satisfacción con nuestros clientes para fidelizar";
+
 
 let objEts1_1 = document.getElementById("boton1_1");
 objEts1_1.textContent =
@@ -43,6 +49,15 @@ objEts3_1.textContent = "3.1. Optimizar el gasto administrativo";
 
 let objEts3_2 = document.getElementById("boton3_2");
 objEts3_2.textContent = "3.2.  Optimizar el gasto de distribución y venta";
+
+let objEts4_1 = document.getElementById("boton4_1");
+objEts4_1.textContent = "4.1 Posicionarnos en el top of mind y top of heart de nuestros clientes";
+
+
+let objEts5_1 = document.getElementById("boton5_1");
+objEts5_1.textContent = "5.1. Mejorar el ciclo de servicio en el front y back office";
+
+
 
 
 
@@ -315,9 +330,12 @@ op7obj1.textContent="1.3.3. Incrementar la cantidad de clientes por recompra en 
 let op8obj1=spanElements.item(7);
 op8obj1.textContent="1.3.4. Incrementar la cantidad de clientes nuevos en linea de IES";
 
-
 let op9obj1=spanElements.item(8);
 op9obj1.textContent="1.4.1. Lograr oportunidades en marcas propias por 23 mil millones y lograr una efectividad del 40%";
+
+
+
+
 
 let op1obj2=spanElements.item(9);
 op1obj2.textContent="2.1.1. Ser eficientes en la estructuración de los proyectos";
@@ -327,7 +345,7 @@ op2obj2.textContent="2.1.2. Incrementar al 70% la participación de marcas propi
 
 let op3obj2=spanElements.item(11);
 op3obj2.textContent="2.1.3. Incrementar la facturación de las marcas que generan una rentabilidad superior al 60 %";
-
+ 
 let op4obj2=spanElements.item(12);
 op4obj2.textContent="2.1.4. Mantener en 17% el gasto logístico";
 
@@ -336,5 +354,24 @@ op5obj2.textContent="2.1.5. Ser eficientes en la negociación con proveedores qu
 
 let op6obj2=spanElements.item(14);
 op6obj2.textContent="2.2.1. Mejorar la estimacion de la demanda para mantener un stock óptimo ";
+
+let op1obj3=spanElements.item(15);
+op1obj3.textContent="3.1.1. Lograr que la participación de la nómina administrativa no supere el 9%% del valor de los ingresos operacionales anuales";
+
+let op2obj3=spanElements.item(16);
+op2obj3.textContent="3.1.2. Optimizar el presupuesto asignado al área administrativa";
+
+let op3obj3=spanElements.item(17);
+op3obj3.textContent="3.2.1. Lograr que la participación de la nómina de distribución no supere el 20% del valor de los ingresos operacionales anuales";
+
+let op4obj3=spanElements.item(18);
+op4obj3.textContent="3.2.2. Mantener el presupuesto de gastos de viáticos";
+
+let op1obj4=spanElements.item(19);
+op1obj4.textContent="4.1.1.  Asegurar la implementacion del plan de marketing ";
+
+
+let op1obj5=spanElements.item(20);
+op1obj5.textContent="5.1.1. Implementar momentos mágicos en el ciclo de servicio al cliente ";
 
 
