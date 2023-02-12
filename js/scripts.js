@@ -134,6 +134,28 @@ let objEts10_2 = document.getElementById("boton10_2");
 objEts10_2.textContent = "10.2 Asegurar el cumplimiento de los objetivos de los proyectos internos";
 
 
+let objEts11_1 = document.getElementById("boton11_1");
+objEts11_1.textContent = "11.1 Optimizar el nivel de desempeño laboral";
+
+let objEts11_2 = document.getElementById("boton11_2");
+objEts11_2.textContent = "11.2.Fortalecer el engagement del trabajador";
+
+let objEts11_3 = document.getElementById("boton11_3");
+objEts11_3.textContent = "11.3 Fortalecer el nivel de competencias de los colaboradores";
+
+let objEts12_1 = document.getElementById("boton12_1");
+objEts12_1.textContent = "12.1. Disminuir la brecha entre la cultura actual y la deseada";
+
+
+let objEts13_1 = document.getElementById("boton13_1");
+objEts13_1.textContent = "13.1. Aumentar el nivel de satisfacción de los procesos en los servicios de TI";
+
+let objEts13_2 = document.getElementById("boton13_2");
+objEts13_2.textContent = "13.2. Promover la automatización de procesos con proyectos tecnológicos";
+
+
+let objEts13_3 = document.getElementById("boton13_3");
+objEts13_3.textContent = "13.3. Disminuir las brechas de seguridad de la información";
 
 
 //functions hide and show for class
@@ -537,3 +559,74 @@ op6obj10.textContent="10.2.1.  Asegurar que al menos la mitad de las iniciativas
 
 let op7obj10=spanElements.item(43);
 op7obj10.textContent="10.2.2. Garantizar la gestión de la pmo hacia los equipos de proyectos";
+
+let op1obj11=spanElements.item(44);
+op1obj11.textContent="11.1.1. Garantizar el acompañamiento en la generación de planes de acción a todos los colaboradores con resultados inferiores al 85% en la evaluación de desempeño";
+
+let op2obj11=spanElements.item(45);
+op2obj11.textContent="11.1.2. Garantizar el 90% de cumplimiento a los acuerdos de gestión generados en la socialización de la evaluación de Desempeño";
+
+let op3obj11=spanElements.item(46);
+op3obj11.textContent="11.1.3. Fortalecer las habilidades blandas de todos los colaboradores";
+
+let op4obj11=spanElements.item(47);
+op4obj11.textContent="11.1.4. Promover una cultura de feedback 360 orientada al ser y el hacer en la empresa";
+
+let op5obj11=spanElements.item(48);
+op5obj11.textContent="11.2.1. Incrementar la participación en actividades de bienestar y calidad de vida";
+
+let op6obj11=spanElements.item(49);
+op6obj11.textContent="11.2.2. Fomentar espacios de bienestar y calidad de vida";
+
+let op7obj11=spanElements.item(50);
+op7obj11.textContent="11.3.1. Incentivar el auto aprendizaje";
+
+let op1obj12=spanElements.item(51);
+op1obj12.textContent="12.1.1. Asegurar la construcción del modelo de cultura deseado";
+
+
+let op1obj13=spanElements.item(52);
+op1obj13.textContent="13.1.1. Mejorar la oportunidad de respuesta en los servicios de TI a los procesos";
+
+let op2obj13=spanElements.item(53);
+op2obj13.textContent="13.1.2.Garantizar la disponibilidad de los servicios de TI";
+
+let op3obj13=spanElements.item(54);
+op3obj13.textContent="13.1.3. Minimizar las fallas presentadas en los SI";
+
+let op4obj13=spanElements.item(55);
+op4obj13.textContent="13.2.1. Incrementar la usabilidad de todos los sistemas de información";
+
+let op5obj13=spanElements.item(56);
+op5obj13.textContent="13.2.2. Generar una valoración trimestral a mínimo 2 procedimientos de áreas de probables automatizaciones";
+
+let op6obj13=spanElements.item(57);
+op6obj13.textContent="13.2.3. Proponer nuevas soluciones tecnológicas que aporten al crecimiento de la organización";
+
+let op7obj13=spanElements.item(58);
+op7obj13.textContent="13.2.4. Automatizar actividades manuales";
+
+let op8obj13=spanElements.item(59);
+op8obj13.textContent="13.3.1. Garantizar la implementación del Data Lost Prevention (DLP) prevencion de fuga de datos información";
+
+let op9obj13=spanElements.item(60);
+op9obj13.textContent="13.3.2. Cumplir con los requisitos mínimos obligatorios de la ISO 27001";
+
+let op10obj13=spanElements.item(61);
+op10obj13.textContent="13.3.3. Asegurar la continuidad del negocio a nivel de software, hardware e información";
+
+let op11obj13=spanElements.item(62);
+op11obj13.textContent="13.3.4. Mitigar la intrusión de accesos externos a la defensa perimetral";
+
+
+
+
+
+
+
+
+
+
+
+
+
