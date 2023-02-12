@@ -25,31 +25,31 @@ objEts6.textContent = "6. Incrementar la mejora continua de los procesos";
 
 
  let objEts7 = document.getElementById("boton7");
- objEts7.textContent = "7. Garantizar la innovación en nuestro portafolio y prácticas para ser mas competitivos";
+ objEts7.textContent = "7. Garantizar la innovación en nuestro portafolio y prácticas";
 
 
-// let objEts8 = document.getElementById("boton8");
-// objEts8.textContent = "8. Prevenir el riesgo jurídico";
+let objEts8 = document.getElementById("boton8");
+objEts8.textContent = "8. Prevenir el riesgo jurídico";
 
 
-// let objEts9 = document.getElementById("boton9");
-// objEts9.textContent = "9. Aportar socialmente a la educación de las poblaciones de interés";
+let objEts9 = document.getElementById("boton9");
+objEts9.textContent = "9. Aportar socialmente a la educación de las poblaciones de interés";
 
 
-// let objEts10 = document.getElementById("boton10");
-// objEts10.textContent = "10. Asegurar la efectividad en la gestión de proyectos";
+let objEts10 = document.getElementById("boton10");
+objEts10.textContent = "10. Asegurar la efectividad en la gestión de proyectos";
 
 
-// let objEts11 = document.getElementById("boton11");
-// objEts11.textContent = "11. Promover el desartrollo provesional y personal de los integrantes del equipo";
+let objEts11 = document.getElementById("boton11");
+objEts11.textContent = "11. Promover el desarrollo profesional y personal de los integrantes del equipo";
 
 
-// let objEts12 = document.getElementById("boton12");
-// objEts12.textContent = "12. Consolidar una cultura organizacional fuerte alineada a la estrategia corporativa";
+let objEts12 = document.getElementById("boton12");
+objEts12.textContent = "12. Consolidar una cultura organizacional fuerte alineada a la estrategia corporativa";
 
 
-// let objEts13 = document.getElementById("boton13");
-// objEts13.textContent = "13. Maximizar la eficiencia de los recursos tecnológicos";
+let objEts13 = document.getElementById("boton13");
+objEts13.textContent = "13. Maximizar la eficiencia de los recursos tecnológicos";
 
 
 
@@ -110,9 +110,28 @@ objEts6_4.textContent = "6.4. Prevenir la contaminación y el cambio climatico";
 let objEts6_5 = document.getElementById("boton6_5");
 objEts6_5.textContent = "6.5. Minimizar la repetitivad en garantias";
 
+let objEts7_1 = document.getElementById("boton7_1");
+objEts7_1.textContent = "7.1. Asegurar la oportuna ejecución de los proyectos de innovación";
+
+let objEts7_2 = document.getElementById("boton7_2");
+objEts7_2.textContent = "7.2. Asegurar la incorporación de marcas rentables y ajustadas a las necesidades del mercado";
 
 
+let objEts8_1 = document.getElementById("boton8_1");
+objEts8_1.textContent = "8.1. Asegurar que la documentación legal cumpla con la normatividad aplicable";
 
+
+let objEts8_2 = document.getElementById("boton8_2");
+objEts8_2.textContent = "8.2. Evitar sanciones de entes de control";
+
+let objEts9_1 = document.getElementById("boton9_1");
+objEts9_1.textContent = "9.1. Aumentar el impacto en la población estudiantil de zonas rurales";
+
+let objEts10_1 = document.getElementById("boton10_1");
+objEts10_1.textContent = "10.1. Aumentar la oportunidad de ejecución de proyectos";
+
+let objEts10_2 = document.getElementById("boton10_2");
+objEts10_2.textContent = "10.2 Asegurar el cumplimiento de los objetivos de los proyectos internos";
 
 
 
@@ -464,4 +483,57 @@ op7obj6.textContent="6.5.1. Asegurar con las partes interesadas la generación d
 
 
 
+let op1obj7=spanElements.item(28);
+op1obj7.textContent="7.1.1. - Generar iniciativas de innovación a partir de los casos de éxito";
 
+
+let op2obj7=spanElements.item(29);
+op2obj7.textContent="7.1.2. Transformar las iniciativas en un grupo de proyectos a ejecutar";
+
+
+let op3obj7=spanElements.item(30);
+op3obj7.textContent="7.2.1. Asegurar la búsqueda constante de proveedores y productos";
+
+
+
+let op1obj8=spanElements.item(31);
+op1obj8.textContent="8.1.1. Mejorar tiempos de respuesta en revisiones de documentos";
+
+
+let op2obj8=spanElements.item(32);
+op2obj8.textContent="8.1.2. Disminuir la subsanación de requisitos legales o documentación jurídica en procesos selección publica y privada";
+
+
+let op3obj8=spanElements.item(33);
+op3obj8.textContent="8.2.1. Garantizar la respuesta oportuna a requerimientos a entes dentro de los tiempos estipulados";
+
+
+let op1obj9=spanElements.item(34);
+op1obj9.textContent="9.1.1. Fortalecer las competencias en mínimo 20 estudiantes de zonas rurales";
+
+let op2obj9=spanElements.item(35);
+op2obj9.textContent="9.1.2. Aportar material educativo a 2 instituciones educativas rurales";
+
+let op3obj9=spanElements.item(36);
+op3obj9.textContent="9.1.3. Aportar económicamente para el mejoramiento de las condiciones educativas de instituciones educativas rurales";
+
+let op1obj10=spanElements.item(37);
+op1obj10.textContent="10.1.1. Optimizar los costos generales de proyectos ";
+
+let op2obj10=spanElements.item(38);
+op2obj10.textContent="10.1.2. Mejorar la calidad en la formulación y estructuración de los proyectos ";
+
+let op3obj10=spanElements.item(39);
+op3obj10.textContent="10.1.3.Mitigar los riesgos que se presenten durante el ciclo de vida del proyecto ";
+
+let op4obj10=spanElements.item(40);
+op4obj10.textContent="10.1.4. Aumentar el número de proyectos presentados en el Plan de Convocatorias ASCTeI";
+
+let op5obj10=spanElements.item(41);
+op5obj10.textContent="10.1.5. Promover la mejora continua en la gestión de proyectos ";
+
+let op6obj10=spanElements.item(42);
+op6obj10.textContent="10.2.1.  Asegurar que al menos la mitad de las iniciativas de proyectos internos sean viables y pertinentes para la organización ";
+
+let op7obj10=spanElements.item(43);
+op7obj10.textContent="10.2.2. Garantizar la gestión de la pmo hacia los equipos de proyectos";
