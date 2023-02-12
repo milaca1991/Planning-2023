@@ -208,10 +208,10 @@ fiveH2Element.textContent = "Trabajamos en equipo";
 let sixH2Element = h2Elements.item(3);
 sixH2Element.textContent = "Actuamos con pasión";
 
-let elevenH2Element = h2Elements.item(4);
+let elevenH2Element = h2Elements.item(5);
 elevenH2Element.textContent = "Equidad y trato justo";
 
-let sevenH2Element = h2Elements.item(5);
+let sevenH2Element = h2Elements.item(4);
 sevenH2Element.textContent = "Orientados al logro de objetivos";
 
 
@@ -279,8 +279,9 @@ let strategicMap = imgElements.item(3);
 strategicMap.src = "/images/mapa2023.jpg";
 
 let bsc = imgElements.item(4);
- bsc.src = "/images/cuadromando.jpg";
+ bsc.src = "/images/res2023.png";
 
+bsc.id = "res2023";
 
  //elementos P
 
@@ -332,21 +333,21 @@ tooltip4.textContent =
 "Inspiramos a nuestros clientes, reflejando la pasión por lo que hacemos";
 
 
-let defP9Pelement = pElements.item(11);
+let defP9Pelement = pElements.item(13);
 defP9Pelement.textContent =
 "Fomentamos la diversidad, la inclusión y una cultura de respeto en la organización promoviendo la igualdad de oportunidades."; 
 
-let tooltip9 = pElements.item(12);
+let tooltip9 = pElements.item(14);
 tooltip9.textContent =
 "Incluye el acceso a oportunidades de desarrollo profesional, compensación justa y ambiente de trabajo seguro y respetuoso.";
 
 
 
-let defP5Pelement = pElements.item(13);
+let defP5Pelement = pElements.item(11);
 defP5Pelement.textContent =
 "Trazamos objetivos, planeamos y nos retamos";
 
-let tooltip5 = pElements.item(14);
+let tooltip5 = pElements.item(12);
 tooltip5.textContent =
 " Recopilamos información veraz y confiable. Entendemos que la medición es el medio para alcanzar los objetivos";
 
