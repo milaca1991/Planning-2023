@@ -1,7 +1,6 @@
 let title = document.querySelector("h1");
 title.innerHTML = "Planeación 2023";
 
-
 let footer = document.querySelector("div.footer");
 footer.innerHTML = "Made with ♥ by Electroequipos";
 let imgIntro = document.querySelector("img.img-intro");
@@ -20,6 +19,43 @@ objEts4.textContent = "4. Generar demanda para aumentar oportunidades de negocio
 
 let objEts5 = document.getElementById("boton5");
 objEts5.textContent = "5. Aumentar el nivel de satisfacción con nuestros clientes para fidelizar";
+
+let objEts6 = document.getElementById("boton6");
+objEts6.textContent = "6. Incrementar la mejora continua de los procesos";
+
+
+ let objEts7 = document.getElementById("boton7");
+ objEts7.textContent = "7. Garantizar la innovación en nuestro portafolio y prácticas para ser mas competitivos";
+
+
+// let objEts8 = document.getElementById("boton8");
+// objEts8.textContent = "8. Prevenir el riesgo jurídico";
+
+
+// let objEts9 = document.getElementById("boton9");
+// objEts9.textContent = "9. Aportar socialmente a la educación de las poblaciones de interés";
+
+
+// let objEts10 = document.getElementById("boton10");
+// objEts10.textContent = "10. Asegurar la efectividad en la gestión de proyectos";
+
+
+// let objEts11 = document.getElementById("boton11");
+// objEts11.textContent = "11. Promover el desartrollo provesional y personal de los integrantes del equipo";
+
+
+// let objEts12 = document.getElementById("boton12");
+// objEts12.textContent = "12. Consolidar una cultura organizacional fuerte alineada a la estrategia corporativa";
+
+
+// let objEts13 = document.getElementById("boton13");
+// objEts13.textContent = "13. Maximizar la eficiencia de los recursos tecnológicos";
+
+
+
+
+
+
 
 
 let objEts1_1 = document.getElementById("boton1_1");
@@ -57,6 +93,26 @@ objEts4_1.textContent = "4.1 Posicionarnos en el top of mind y top of heart de n
 let objEts5_1 = document.getElementById("boton5_1");
 objEts5_1.textContent = "5.1. Mejorar el ciclo de servicio en el front y back office";
 
+let objEts6_1 = document.getElementById("boton6_1");
+objEts6_1.textContent = "6.1. Mejorar la comunicación e interacción de los procesos";
+
+let objEts6_2 = document.getElementById("boton6_2");
+objEts6_2.textContent = "6.2. Garantizar el cierre eficaz de acciones de mejoramiento";
+
+let objEts6_3 = document.getElementById("boton6_3");
+objEts6_3.textContent = "6.3. Prevenir la ocurrencia de accidentes de trabajo y enfermedades laborales";
+
+
+let objEts6_4 = document.getElementById("boton6_4");
+objEts6_4.textContent = "6.4. Prevenir la contaminación y el cambio climatico";
+
+
+let objEts6_5 = document.getElementById("boton6_5");
+objEts6_5.textContent = "6.5. Minimizar la repetitivad en garantias";
+
+
+
+
 
 
 
@@ -89,14 +145,14 @@ let h2Elements = document.querySelectorAll("h2");
 console.log(h2Elements);
 
 
-let zeroH2Element = h2Elements.item(8);
+let zeroH2Element = h2Elements.item(9);
 zeroH2Element.textContent = "Confianza";
 
-let firstH2Element = h2Elements.item(9);
+let firstH2Element = h2Elements.item(10);
 firstH2Element.textContent = "Orgullo";
 
-let secondH2Element = h2Elements.item(10);
-secondH2Element.textContent = "Trabajo en equipo";
+let secondH2Element = h2Elements.item(11);
+secondH2Element.textContent = "Compañerismo";
 
 let thirdH2Element = h2Elements.item(0);
 thirdH2Element.textContent = "Cultura de servicio";
@@ -111,24 +167,26 @@ fiveH2Element.textContent = "Trabajamos en equipo";
 let sixH2Element = h2Elements.item(3);
 sixH2Element.textContent = "Actuamos con pasión";
 
+let elevenH2Element = h2Elements.item(4);
+elevenH2Element.textContent = "Equidad y trato justo";
 
-let sevenH2Element = h2Elements.item(4);
+let sevenH2Element = h2Elements.item(5);
 sevenH2Element.textContent = "Orientados al logro de objetivos";
 
 
-let eigthH2Element = h2Elements.item(5);
+let eigthH2Element = h2Elements.item(6);
 eigthH2Element.textContent = "Somos colaboradores integrales";
 
 
-let nineH2Element = h2Elements.item(6);
+let nineH2Element = h2Elements.item(7);
 nineH2Element.textContent = "Dispuestos al cambio";
 
 
-let tenH2Element = h2Elements.item(7);
-tenH2Element.textContent = "Confiamos en ti";
+let tenH2Element = h2Elements.item(8);
+tenH2Element.textContent = "Confiamos en nuestro equipo";
 
-let titleObjetives = h2Elements.item(11);
-titleObjetives.textContent = "Desglose de los Objetivos estratégicos";
+let titleObjetives = h2Elements.item(12);
+titleObjetives.textContent = "Metas claves para 2023";
 
 // let titleProjects = h2Elements.item(12);
 // titleProjects.textContent = "Proyectos y planes que apalancarán la estrategia";
@@ -177,11 +235,10 @@ let valueTree = imgElements.item(2);
 valueTree.src = "/images/valor 3.png";
 
 let strategicMap = imgElements.item(3);
-strategicMap.src = "/images/mapa2.jpg";
-
+strategicMap.src = "/images/mapa2023.jpg";
 
 let bsc = imgElements.item(4);
- bsc.src = "/images/DETALLE DE INDICADORES 2023.png";
+ bsc.src = "/images/cuadromando.jpg";
 
 
  //elementos P
@@ -195,11 +252,11 @@ zeroPelement.textContent =
 
 let firstPelement = pElements.item(1);
 firstPelement.textContent =
-"El compromiso de Electroequipos es proveer al sector educativo y empresarial soluciones integrales de enseñanza y para la industria en general, la más avanzada tecnología, poniendo al alcance de sus socios estratégicos las herramientas y procesos que formen y actualicen profesionales altamente competitivos en el mercado nacional e internacional";
+"Con más de 20 años de trayectoria estamos comprometidos con proporcionar soluciones integrales de tecnología avanzada, a través del diseño, estructuración e implementación de proyectos especializados, poniendo al alcance de nuestros socios estratégicos las soluciones con los más altos estándares de calidad y satisfacción, contribuyendo así a disminuir la brecha en procesos formativos y a favorecer la conexión entre sectores de la sociedad";
 
 let secondPelement = pElements.item(2);
 secondPelement.textContent =
-"Para el 2028 Electroequipos se consolidará como el primer proveedor de soluciones tecnológicas en el sector educativo y contará con reconocimiento en el sector industrial. A traves de la innovación y la constante busqueda de tendencias globales, Electroequipos seguirá diversificando su portafolio aportando a nuestra sociedad soluciones de enseñanza con estandares de calidad y poniendo al alcance de las instituciones educativas tecnologias de avanzada, asi mismo, seguira creciendo de manera sostenible logrando mayor cobertura, asi como su compromiso con la generacion de empleo calificado en el país";
+"Para el 2028 seremos reconocidos como el primer proveedor de soluciones integrales con tecnología de avanzada, aportando a la sociedad proyectos especializados con altos estándares de calidad y un servicio al cliente excepcional, a través de la innovación, la mejora continua de nuestros procesos, la diversificación de nuestro portafolio, prácticas internas y el desarrollo de nuestro capital humano. Así mismo, seguiremos creciendo de manera sostenible logrando mayor cobertura, así como nuestro compromiso en la generación de empleo calificado en el país.";
 
 let defP1element = pElements.item(3);
 defP1element.textContent =
@@ -233,50 +290,60 @@ let tooltip4 = pElements.item(10);
 tooltip4.textContent =
 "Inspiramos a nuestros clientes, reflejando la pasión por lo que hacemos";
 
-let defP5Pelement = pElements.item(11);
+
+let defP9Pelement = pElements.item(11);
+defP9Pelement.textContent =
+"Fomentamos la diversidad, la inclusión y una cultura de respeto en la organización promoviendo la igualdad de oportunidades."; 
+
+let tooltip9 = pElements.item(12);
+tooltip9.textContent =
+"Incluye el acceso a oportunidades de desarrollo profesional, compensación justa y ambiente de trabajo seguro y respetuoso.";
+
+
+
+let defP5Pelement = pElements.item(13);
 defP5Pelement.textContent =
 "Trazamos objetivos, planeamos y nos retamos";
 
-let tooltip5 = pElements.item(12);
+let tooltip5 = pElements.item(14);
 tooltip5.textContent =
 " Recopilamos información veraz y confiable. Entendemos que la medición es el medio para alcanzar los objetivos";
 
-let defP6Pelement = pElements.item(13);
+let defP6Pelement = pElements.item(15);
 defP6Pelement.textContent =
 "Calidad en nuestras soluciones y prácticas, con autocuidado y minizando impacto ambiental";
 
-let tooltip6 = pElements.item(14);
+let tooltip6 = pElements.item(16);
 tooltip6.textContent =
 " Desempeñamos nuestra labor orientados a la satisfacción de nuestros clientes";
 
-let defP7Pelement = pElements.item(15);
+let defP7Pelement = pElements.item(17);
 defP7Pelement.textContent =
 "Construimos en equipo y eliminamos las barreras que se presenten, para conseguir éxito en los procesos de transformación";
 
-let tooltip7 = pElements.item(16);
+let tooltip7 = pElements.item(18);
 tooltip7.textContent =
 "Nos gusta iniciar el cambio o formar parte del cambio";
 
 
-let defP8Pelement = pElements.item(17);
+let defP8Pelement = pElements.item(19);
 defP8Pelement.textContent =
-"Tus líderes y compañeros, viven las relaciones laborales fomentando la confianza";
-let tooltip8 = pElements.item(18);
+"Fomentamos la confianza para establecer relaciones saludables y productivas ";
+
+let tooltip8 = pElements.item(20);
 tooltip8.textContent =
-"Estamos seguros de tu potencial";
+"Creando un ambiente de trabajo positivo, para sentirnos cómodos compartiendo ideas, asumiendo riesgos y trabajando juntos hacia un objetivo en común";
 
 
-
-
-let thirdPelement = pElements.item(19);
+let thirdPelement = pElements.item(21);
 thirdPelement.textContent =
 "hacia nuestros líderes y nuestro equipo de trabajo           ";
 
-let forthPelement = pElements.item(20);
+let forthPelement = pElements.item(22);
 forthPelement.textContent =
 "de hacer lo que hacemos en donde lo hacemos";
 
-let fivePelement = pElements.item(21);
+let fivePelement = pElements.item(23);
 fivePelement.textContent =
 "la conexión e interacción con nuestro equipo de trabajo";
 
@@ -334,9 +401,6 @@ let op9obj1=spanElements.item(8);
 op9obj1.textContent="1.4.1. Lograr oportunidades en marcas propias por 23 mil millones y lograr una efectividad del 40%";
 
 
-
-
-
 let op1obj2=spanElements.item(9);
 op1obj2.textContent="2.1.1. Ser eficientes en la estructuración de los proyectos";
 
@@ -373,5 +437,31 @@ op1obj4.textContent="4.1.1.  Asegurar la implementacion del plan de marketing ";
 
 let op1obj5=spanElements.item(20);
 op1obj5.textContent="5.1.1. Implementar momentos mágicos en el ciclo de servicio al cliente ";
+
+let op1obj6=spanElements.item(21);
+op1obj6.textContent="6.1.1. Garantizar procedimientos actualizados, revisados y divulgados";
+
+let op2obj6=spanElements.item(22);
+op2obj6.textContent="6.1.2. Mitigar los riesgos presentados en los procesos para prevenir su materialización";
+
+let op3obj6=spanElements.item(23);
+op3obj6.textContent="6.1.3. Incrementar la participación de todos los colaboradores en actividades y capacitaciones en el sistema de gestión integrado";
+
+let op4obj6=spanElements.item(24);
+op4obj6.textContent="6.2.1. Asegurar el análisis y seguimiento oportuno a las acciones de mejora";
+
+
+let op5obj6=spanElements.item(25);
+op5obj6.textContent="6.3.1. Mitigar los riesgos presentados en la operación de la organización";
+
+
+let op6obj6=spanElements.item(26);
+op6obj6.textContent="6.4.1. Minimizar los impactos ambientales";
+
+
+let op7obj6=spanElements.item(27);
+op7obj6.textContent="6.5.1. Asegurar con las partes interesadas la generación de plan de acción en repetitividad de garantías";
+
+
 
 
