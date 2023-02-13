@@ -339,7 +339,7 @@ defP9Pelement.textContent =
 
 let tooltip9 = pElements.item(14);
 tooltip9.textContent =
-"Incluye el acceso a oportunidades de desarrollo profesional, compensación justa y ambiente de trabajo seguro y respetuoso.";
+"En desarrollo profesional, compensación justa y ambiente de trabajo seguro y respetuoso.";
 
 
 

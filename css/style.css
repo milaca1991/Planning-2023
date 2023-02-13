@@ -32,7 +32,7 @@ body{
 }
 
 
- #boton1,#boton2,#boton3,#boton4,#boton5,#boton6,#boton7,#boton8,#boton9,#boton10,#boton11,#boton12,#boton13  {
+ #boton1,#boton2,#boton3 {
   width: 70%;
   height: 40px;
   color: #1d1d1d;
@@ -46,11 +46,75 @@ body{
   z-index: 0;
   background: #ADAF30;
   overflow: hidden;
-  border: 2px solid #495057;
+  border: 2px solid #F5F5E9;
   font-family: 'Poppins',sans-serif!important;  
  text-align: center;
 
 }
+
+#boton4,#boton5{
+  width: 70%;
+  height: 40px;
+  color: #fdf0f0;
+  padding: 5px 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+
+  border-radius: 5px;
+  z-index: 0;
+  background: #1C395B;
+  overflow: hidden;
+  border: 2px solid #E3E6EB;
+  font-family: 'Poppins',sans-serif!important;  
+ text-align: center;
+
+}
+
+#boton6,#boton7,#boton8,#boton9,#boton10 {
+  width: 70%;
+  height: 40px;
+  color: #fdf0f0;
+  padding: 5px 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+
+  border-radius: 5px;
+  z-index: 0;
+  background: #53B1AD;
+  overflow: hidden;
+  border: 2px solid #E3E6EB;
+  font-family: 'Poppins',sans-serif!important;  
+ text-align: center;
+
+}
+
+#boton11,#boton12,#boton13  {
+  width: 70%;
+  height: 40px;
+  color: #fdf0f0;
+  padding: 5px 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+
+  border-radius: 5px;
+  z-index: 0;
+  background: #34788F;
+  overflow: hidden;
+  border: 2px solid #E3E6EB;
+  font-family: 'Poppins',sans-serif!important;  
+ text-align: center;
+
+}
+
+
+
+
 
 #boton1:hover , #boton2:hover, #boton3:hover,#boton4:hover,#boton5:hover,#boton6:hover,#boton7:hover,#boton8:hover,#boton9:hover,#boton10:hover,#boton11:hover,#boton12:hover,#boton13:hover   {
   color: #fff;
@@ -118,31 +182,18 @@ overflow: visible;
 
 /*banner mega 1*/
 
-.bannerMega1 {
+.bannerMega1,.bannerMega2 {
   width: 100%;
-  background-color: #858282;
+
     background-size: cover;
   font-size: 8rem;
-  color: rgb(255, 249, 249);
-  text-align: left;
+  color: rgb(92, 87, 87);
+  text-align: justify;
 padding: 2%;
   border-radius: 1%;
 text-transform: uppercase;
 
   
-}
-
-.bannerMega2{
-  background-color: #858282;
-  width: 100%;
-    background-size: cover;
-  font-size: 8rem;
-  color: rgb(255, 249, 249);
-  padding: 2%;
-  border-radius: 1%;
-  margin-top: 1%;
-  text-transform: uppercase;
-
 }
 
 
