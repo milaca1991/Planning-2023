@@ -2697,7 +2697,8 @@ textarea {
 button {
   cursor: pointer;
   text-align: center;
-  width: auto; }
+  max-width:100% ;
+ }
 
 .button {
   cursor: pointer;

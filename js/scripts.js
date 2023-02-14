@@ -462,13 +462,13 @@ let op6obj2=spanElements.item(14);
 op6obj2.textContent="2.2.1. Mejorar la estimacion de la demanda para mantener un stock óptimo ";
 
 let op1obj3=spanElements.item(15);
-op1obj3.textContent="3.1.1. Lograr que la participación de la nómina administrativa no supere el 9%% del valor de los ingresos operacionales anuales";
+op1obj3.textContent="3.1.1. Lograr que la participación de la nómina admin no supere el 9% del valor de los ingresos operacionales anuales";
 
 let op2obj3=spanElements.item(16);
 op2obj3.textContent="3.1.2. Optimizar el presupuesto asignado al área administrativa";
 
 let op3obj3=spanElements.item(17);
-op3obj3.textContent="3.2.1. Lograr que la participación de la nómina de distribución no supere el 20% del valor de los ingresos operacionales anuales";
+op3obj3.textContent="3.2.1. Lograr que la participación de la nómina de ventas no supere el 20% del valor de los ingresos operacionales anuales";
 
 let op4obj3=spanElements.item(18);
 op4obj3.textContent="3.2.2. Mantener el presupuesto de gastos de viáticos";
