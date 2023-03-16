@@ -564,7 +564,7 @@ text-transform: uppercase;
   
   .banner{
     
-    background-image: url(/images/mision.png);
+    background-image: url(./images/mision.png);
      background-size:65% 125%;
     background-repeat: no-repeat;
     padding: 3%;
