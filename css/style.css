@@ -44,7 +44,7 @@ body{
 
   border-radius: 5px;
   z-index: 0;
-  background: #ADAF30;
+  background: #48ef9d;
   overflow: hidden;
   border: 2px solid #F5F5E9;
   font-family: 'Poppins',sans-serif!important;  
@@ -63,7 +63,7 @@ body{
   position: relative;
   border-radius: 5px;
   z-index: 0;
-  background: #1C395B;
+  background: #9cb6ff;
   overflow: hidden;
   border: 2px solid #E3E6EB;
   font-family: 'Poppins',sans-serif!important;  
@@ -83,7 +83,7 @@ body{
 
   border-radius: 5px;
   z-index: 0;
-  background: #53B1AD;
+  background: #0062ff;
   overflow: hidden;
   border: 2px solid #E3E6EB;
   font-family: 'Poppins',sans-serif!important;  
@@ -102,7 +102,7 @@ body{
   position: relative;
   border-radius: 5px;
   z-index: 0;
-  background: #34788F;
+  background: #1c3748;
   overflow: hidden;
   border: 2px solid #E3E6EB;
   font-family: 'Poppins',sans-serif!important;  
@@ -564,8 +564,8 @@ text-transform: uppercase;
   
   .banner{
     
-    background-image: url(/images/mision.png);
-     background-size:65% 125%;
+    background-image: url(/images/Mision.jpeg);
+     background-size:55% 95%;
     background-repeat: no-repeat;
     padding: 3%;
 
@@ -580,8 +580,9 @@ text-transform: uppercase;
   
   .banner2{
     
-    background-image: url(/images/4780372.jpg);
-    background-size: 90% 250%;
+    background-image: url(/images/Vision.jpeg);
+    background-size: 50% 100%;
+    background-repeat: no-repeat;
     padding: 3%;
   }
   
@@ -682,7 +683,7 @@ text-transform: uppercase;
 
   #section-8.slide.current{
 
-    background-image: url(/images/proyectos.png);
+    background-image: url(/images/proyectosv2.jpg);
     background-position-x:center ;
     background-position-y:center  ;
     background-size: 90% 100%;

@@ -45,7 +45,7 @@ objEts11.textContent = "11. Promover el desarrollo profesional y personal de los
 
 
 let objEts12 = document.getElementById("boton12");
-objEts12.textContent = "12. Consolidar una cultura organizacional fuerte alineada a la estrategia corporativa";
+objEts12.textContent = "12. Consolidar una cultura organizacional fuerte alineada a la estrategia   ";
 
 
 let objEts13 = document.getElementById("boton13");
@@ -267,16 +267,16 @@ let imgElements = document.querySelectorAll("img");
 console.log(imgElements);
 
 let valueOne = imgElements.item(0);
-valueOne.src = "/images/Business deal-pana.png";
+valueOne.src = "/images/Confianza.jpeg";
 
 let valueTwo = imgElements.item(1);
-valueTwo.src = "/images/Appreciation-rafiki.png";
+valueTwo.src = "/images/Orgullo.jpeg";
 
 let valueTree = imgElements.item(2);
-valueTree.src = "/images/valor 3.png";
+valueTree.src = "/images/Compañerismo.jpeg";
 
 let strategicMap = imgElements.item(3);
-strategicMap.src = "/images/mapa2023.jpg";
+strategicMap.src = "/images/mapa nueva marca.png";
 
 let bsc = imgElements.item(4);
  bsc.src = "/images/res2023.png";
